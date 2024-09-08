@@ -1,242 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/@easepick/bundle@1.2.1/dist/index.umd.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b8a58bc95c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="print.css">
+    <title>Keerti Singh Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="icon" href="k.png">
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <header class="header" id="navigation-menu">
-        <div class="container">
-            <nav>
-                <a href="#" class="logo">
-                    <img src="https://raw.githubusercontent.com/MichaelZhou334/Hotel-Landing-Page/main/images/logo.jpeg" alt="logo image">
-                </a>
-                <ul class="nav-menu">
-                    <li> <a href="#home" class="nav-list">Hotels</a> </li>
-                    <li> <a href="#destinations" class="nav-list">Destinations</a> </li>
-                    <li> <a href="#offers" class="nav-list">Offers</a> </li>
-                    <li> <a href="#travel-experience" class="nav-list">Travel Experiences</a> </li>
-                    <li> <a href="#meetings-events" class="nav-list">Meeting & Events</a> </li>
-                </ul>
+    <div class="main">
 
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+        <div class="mobile-name-banner">
+            <h1>Keerti Singh</h1>
+            <h2>Software Developer</h2>
+        </div>
+
+        <input type="checkbox" id="check" />
+        <div class="ham top-icons">
+            <label for="check"><i class="fa-solid fa-bars"></i></label>
+        </div>
+
+        <nav class="nav">
+            <div class="cross top-icons">
+                <label for="check"><i class="fa-solid fa-xmark"></i></label>
+            </div>
+            <div class="logo">
+                <img src="p.jpg" alt="">
+            </div>
+            <div class="line"></div>
+            <ul id="nav-links-all">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+                <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+                <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="sections">
+
+            <section class="home scrollspy" id="home">
+                <div class="home-content">
+                    <div class="text-1">Hello, my name is</div>
+                    <div class="text-2">
+                        <span>K</span>eerti
+                        <span>S</span>ingh
+                    </div>
+                    <div class="text-3">
+                        And I'm a
+                        <span class="typing"></span>
+                    </div>
+
+                    <a href="https://www.linkedin.com/in/keerti-singh-191942289" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/keerti-2005" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+
                 </div>
-            </nav>
+
+            </section>
+
+            <section class="about scrollspy" id="about">
+                <div class="section-banner">
+                    <h2>About me</h2>
+                </div>
+                <div class="about-content">
+                    <div class="left">
+                        <img src="p1.jpg" alt="">
+                    </div>
+                    <div class="right">
+                        <div class="text">
+                            <p>I am Keerti Singh</p>
+                            and I'm a
+                            <span class="typing-2"></span>
+                        </div>
+                        <p>Tech enthusiast and BCA professional passionate about applying programming skills and
+                            creative problem-solving in dynamic environments. Eager to contribute to innovative projects
+                            and drive mutual success in a forward-thinking organization.</p>
+                        <a href="https://drive.google.com/file/d/1FLRfXZlEAkfyIZFKn49c3te2KWwiC3g2/view?usp=drive_link"
+                            target="_blank">Download Resume</a>
+                    </div>
+                </div>
+                
+
+            </section>
+            <section class="projects scrollspy" id="projects">
+                <div class="section-banner">
+                    <h2>Projects</h2>
+                </div>
+                <div class="projects-content">
+                    <div class="project-card">
+                        <img src="p2.png" alt="">
+                        <h3>Music Player</h3>
+                        <p>
+                           A Sotify Clone website for playing and listening music and it is fully working website.
+                        </p>
+                    </div>
+                  
+                </div>
+            </section>
+
+            <section class="skills scrollspy" id="skills">
+                <div class="section-banner">
+                    <h2>skills</h2>
+                </div>
+                <div class="skills-group">
+                    <h2>Programming Languages</h2>
+                    <div class="skills-group-items">
+                        <div class="skills-group-items-item">
+                            <img src="p3.png" alt="" class="skill-icons">
+                            <h3>C++</h3>
+                        </div>
+                        <div class="skills-group-items-item">
+                            <img src="p4.png" alt="" class="skill-icons">
+                            <h3>JavaScript</h3>
+                        </div>
+                        <div class="skills-group-items-item">
+                            <img src="p5.png" alt="" class="skill-icons">
+                            <h3>PHP</h3>
+                        </div>
+                        <div class="skills-group-items-item">
+                            <img src="p6.png" alt="" class="skill-icons">
+                            <h3>Python</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-group">
+                    <h2>Others</h2>
+
+                    <div class="skills-group-items">
+                        <div class="skills-group-items-item">
+                            <img src="p7.png" alt="" class="skill-icons">
+                            <h3>HTML</h3>
+                        </div>
+                        <div class="skills-group-items-item">
+                            <img src="p8.png" alt="" class="skill-icons">
+                            <h3>CSS</h3>
+                        </div>
+                        <div class="skills-group-items-item">
+                            <img src="p9.png" alt="" class="skill-icons">
+                            <h3>DBMS</h3>
+                        </div>
+                        <div class="skills-group-items-item">
+                            <img src="p10.png" alt="" class="skill-icons">
+                            <h3>DSA</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="education scrollspy" id="education">
+                <div class="section-banner">
+                    <h2>education</h2>
+                </div>
+                <div class="education-content">
+                    <div class="card">
+                        <div class="box">
+                            <a href="https://allenhouse.ac.in/" target="_blank">
+                                <i class="fas fa-code"></i>
+                                <div class="text">BCA</div>
+                                <p>
+                                    (Bachelor of Computer Application)
+                                    <br>
+                                    Allenhouse Business School, Kanpur
+                                    <br>
+                                    (2022-2025)
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <a href="https://school.careers360.com/schools/vidya-niketan-education-centre-inter-college-harjendra-nagar-kanpur" target="_blank">
+                                <i class="fas fa-industry"></i>
+                                <div class="text"> I.Sc </div>
+                                <p>
+                                    Intermediate of Science
+                                    (PCM)
+                                    <br>
+                                    Vidya Niketan Education Center Girls Inter College Harjinder Nagar,Kanpur
+                                    <br>
+                                    Uttar Pradesh board(2020-2022)
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <a href="https://school.careers360.com/schools/vidya-niketan-education-centre-inter-college-harjendra-nagar-kanpur" target="_blank">
+                                <i class="fas fa-chart-bar"></i>
+                                <div class="text">10th</div>
+                                <p>
+                                    High School
+                                    <br>
+                                    Vidya Niketan Education Center Girls Inter College Harjinder Nagar,Kanpur
+                                    <br>
+                                    Uttar Pradesh board(2019-2020)
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <section class="contact scrollspy" id="contact">
+                <div class="section-banner">
+                    <h2>contact</h2>
+                </div>
+                <div class="contact-content">
+                    <div class="column left">
+                        <div class="text">Don't be shy</div>
+                        <p>
+                            Feel free to get in touch with me. I am always open to discussing
+                            new projects, creative ideas or opportunities to be part of your
+                            visions.
+                        </p>
+                        <div class="icons">
+                            <div class="row">
+                                <i class="fas fa-user"></i>
+                                <div class="info">
+                                    <div class="head">Name</div>
+                                    <div class="sub-title">Keerti Singh</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="info">
+                                    <div class="head">Address</div>
+                                    <div class="sub-title">Shivkatra, Kanpur,UP 208007</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <i class="fas fa-envelope"></i>
+                                <div class="info">
+                                    <div class="head">Email</div>
+                                    <div class="sub-title">keertisingh787196@gmail.com</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column right">
+                        <div class="text">Message me</div>
+                        <form action="" method="post" name="contact">
+                            <div class="fields">
+                                <div class="field name">
+                                    <input id="name-id" name="Name" type="text" placeholder="Name" />
+                                </div>
+                                <div class="field email">
+                                    <input id="email-id" name="Email" type="email" placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="field">
+                                <input id="subject-id" name="Subject" type="text" placeholder="Subject" />
+                            </div>
+                            <div class="field textarea">
+                                <textarea id="msg-id" name="Message" cols="30" rows="10"
+                                    placeholder="Message.."></textarea>
+                            </div>
+                            <div class="button-area">
+                                <button type="submit" onclick="thank(event)">Send message</button>
+                            </div>
+                            <p id="msg-sent"></p>
+                        </form>
+                    </div>
+                </div>
+            </section>
         </div>
 
-    </header>
-
-    <div class="location-ask">
-        <span class="where-to">Where to?</span> <span class="required">(Required) </span> <br />
-    <div class="booking">
-
-            <label class="location-label"></label>
-            <input type="text" class="location" placeholder="City, state, location, or airport" required>
-
-            <button type="submit" class="btn date" onclick="dateOpenPopup()">Date</button>
-            <div class="date-popup" id="date-popup">
-                <h2>Select Date</h2>
-                <input type="text" id="datepicker">
-                <button type="button" onclick="dateClosePopup()">OK</button>
-            </div>
-
-            <button type="submit" class="btn room" onclick="roomOpenPopup()">Rooms & Guests</button>
-            <div class="room-popup" id="room-popup">
-                <h2>Rooms and Guests</h2>
-                <div class="container-room">
-                <form>
-                    <label for="rooms">Rooms:</label>
-                    <input type="number" id="rooms" value=1><br><br>
-                    <label for="adults">Adults:</label>
-                    <input type="number" id="adults" value=1><br><br>
-                    <label for="kids">Kids:</label>
-                    <input type="number" id="kids" value=0><br><br>
-                </form>
-                <button type="button" onclick="roomClosePopup()">OK</button>
-
-            </div>
-            </div>
-            <button type="submit" class="btn special-rates" onclick="ratesOpenPopup()">Special Rates</button>
-            <div class="rates-popup" id="rates-popup">
-                <h2>Special Rates</h2>
-                <form class="special-rates-checkbox">
-                    <label class="special-rates-checkbox">Use Points
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="special-rates-checkbox">Travel Agents
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="special-rates-checkbox">AAA Rate
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="special-rates-checkbox">AARP Rate
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="special-rates-checkbox">Senior Rate
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-                    <label class="special-rates-checkbox">Government / Military Rates
-                        <input type="checkbox">
-                        <span class="checkmark"></span>
-                    </label>
-
-                </form>
-                    <form class="special-rates-text">
-
-                        <label for="promotion-code">Promotion Code</label><br>
-                        <input type="text" id="promotion-code"><br><br>
-                        <label for="group-code">Group Code</label><br>
-                        <input type="text" id="group-code"><br><br>
-                        <label for="corporate-account">Corporate Account</label><br>
-                        <input type="text" id="corporate-account"><br><br>
-
-                    </form>
-
-
-                <button type="button" onclick="ratesClosePopup()">OK</button>
-            </div>
-
-            <button type="submit" class="btn find-hotels">Find a Hotel</button>
-
+        <div class="sm-icons">
+            <a href="https://www.linkedin.com/in/keerti-singh-191942289" target="_blank"><i
+                    class="sm sm-icon fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/keerti-2005" target="_blank"><i
+                    class="sm-icon fa-brands fa-square-github"></i></a>
+            <a href="https://wa.me/+919454253951" target="_blank"><i
+                    class="sm-icon fa-brands fa-square-whatsapp"></i></a>
+            <a href="https://www.instagram.com/cruel_teddu_2321/#" target="_blank"><i
+                    class="sm-icon fa-brands fa-square-instagram"></i></a>
+        </div>
     </div>
-
-    <div class="hotel-front-container">
-        <img src="https://raw.githubusercontent.com/MichaelZhou334/Hotel-Landing-Page/main/images/hotel_front.jpg" alt="picture of the front of the hotel" class="hotel-front">
-       </div>
-
-       <div class="welcome-text">
-        <h2>Beautiful Brazil</h2>
-        <p>Nestled amidst the lush tropical beauty of Brazil, this hotel offers a perfect blend of luxury, comfort, and the enchanting allure of the country's vibrant culture.</p>
-        <button class="btn">Explore More</button>
-       </div>
-
-       <div class="subheading">
-        <h2>Exhilarating Destinations</h2>
-        <p>Here is a journey through some of the most wonderful places on Earth.</p>
-       </div>
-
-       <div class="destinations-images">
-
-        <div class="country" id="italy-div">
-            <img src="https://raw.githubusercontent.com/MichaelZhou334/Hotel-Landing-Page/main/images/italy-hotel.jpg" alt="italy hotel" >
-            <div class="country-text" id="italy-text">ITALY</div>
-        </div>
-        <div class="country" id="portugal-div">
-            <img src="https://raw.githubusercontent.com/MichaelZhou334/Hotel-Landing-Page/main/images/portugal-hotel.jpg" alt="portugal hotel" >
-            <div class="country-text" id="portugal-text">PORTUGAL</div>
-        </div>
-        <div class="country" id="japan-div">
-            <img src="https://raw.githubusercontent.com/MichaelZhou334/Hotel-Landing-Page/main/images/japan-hotel.jpg" alt="japan hotel" >
-            <div class="country-text" id="japan-text">JAPAN</div>
-        </div>
-        <div class="country" id="egypt-div">
-            <img src="https://raw.githubusercontent.com/MichaelZhou334/Hotel-Landing-Page/main/images/egypt-hotel.jpg" alt="egypt hotel" >
-            <div class="country-text" id="egypt-text">EGYPT</div>
-        </div>
-       </div>
-
-       <div class="subheading">
-        <h2>Experience Something New</h2>
-        <p>The unknown beckons us, and our imaginations run wild with possibilities</p>
-       </div>
-
-       <div class="experience-images">
-        <div class="experience" id="discount-div">
-            <img src="https://raw.githubusercontent.com/MichaelZhou334/Hotel-Landing-Page/main/images/discount.jpg" alt="discount picture" >
-            <div class="experience-text" id="discount-text">ADVANCE PURCHASE DISCOUNT</div>
-        </div>
-        <div class="experience" id="points-div">
-            <img src="https://raw.githubusercontent.com/MichaelZhou334/Hotel-Landing-Page/main/images/points.jpg" alt="points picture" >
-            <div class="experience-text" id="points-text">MULTIPLY YOUR POINTS</div>
-        </div>
-        <div class="experience" id="parking-div">
-            <img src="https://raw.githubusercontent.com/MichaelZhou334/Hotel-Landing-Page/main/images/parking.jpg" alt="parking picture" >
-            <div class="experience-text" id="parking-text">PARKING & STAY</div>
-        </div>
-        <div class="experience" id="plan-div">
-            <img src="https://raw.githubusercontent.com/MichaelZhou334/Hotel-Landing-Page/main/images/plan.jpg" alt="plan picture" >
-            <div class="experience-text" id="plan-text">PLAN AND SAVE</div>
-        </div>
-        <div class="experience" id="first-time-div">
-            <img src="https://raw.githubusercontent.com/MichaelZhou334/Hotel-Landing-Page/main/images/first-time.jpg" alt="first-time picture" >
-            <div class="experience-text" id="first-time-text">FIRST TIME DISCOUNTS</div>
-        </div>
-        <div class="experience" id="members-div">
-            <img src="https://raw.githubusercontent.com/MichaelZhou334/Hotel-Landing-Page/main/images/front-desk.jpg" alt="members picture" >
-            <div class="experience-text" id="members-text">MEMBERS GET MORE</div>
-        </div>
-       </div>
-
-       <div class="different-hotels">
-        <img src="https://raw.githubusercontent.com/MichaelZhou334/Hotel-Landing-Page/main/images/villa.jpg" alt="hotel front">
-        <div class="different-hotels-div">
-        <h2>Homes & Villas</h2>
-        <p>Homes & Villas was designed to provide travelers with access to high-end vacation rentals, such as entire homes, villas, and luxury accommodations. The platform featured a curated selection of upscale and unique properties, with distinctive architectural features, stunning views, or premium amenities. We offered additional concierge services, which could include personalized check-in experiences, access to local recommendations, and assistance with planning activities and dining reservations.</p>
-        <button type="submit" class="btn">Join for Free</button>
-    </div>
-    </div>
-
-    <div class="back-to-top">
-    <button onclick="topFunction()" class="btn"> ⬆ Back to Top</button>
-    </div>
-
-  <hr class="footer-line">
-
-    <div class="footer">
-        <div class="col-1">
-            <div>
-            <h3>How can we help?</h3>
-            <button class="btn">Request a Call</button>
-            <div class="social-icons">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-youtube"></i>
-
-            </div>
-
-        </div>
-        </div>
-        <div class="col-2">
-            <a href="#">Travel Inspiration</a>
-            <a href="#">Pet-Friendly Stays</a>
-            <a href="#">Gift Card</a>
-            <a href="#">Global Privacy Statement</a>
-            <a href="#">Site Map</a>
-            <a href="#">Development</a>
-            <a href="#">Media</a>
-            <a href="#">Blog</a>
-            <a href="#">Web Accessibility</a>
-            <a href="#">Customer Support</a>
-        </div>
-        <div class="col-3">
-            <a href="#">Cookies Statement</a>
-            <a href="#">Hotel Hotline</a>
-            <a href="#">Corporate Responsibility</a>
-            <a href="#">Hotel Honors Discount Terms & Conditions</a>
-            <a href="#">Modern Slavery and Human Trafficking</a>
-            <a href="#">Do Not Sell My Personal Information</a>
-            <a href="#">Personal Data Requests</a>
-            <a href="#">Site Usage Agreement</a>
-        </div>
-    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
-    </body>
-    </html>
     
+
+</body>
+
+</html>
